@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Explore IU's REALLMS capabilities and connect through Web Chat, an API, your terminal, or your editor.">
+  <meta name="theme-color" content="#ffffff">
+  <title>REALLMS | One service. Your choice of interface.</title>
+  <link rel="icon" href="https://assets.iu.edu/brand/3.3.x/trident-large.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.iu.edu" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="https://www.iu.edu/"><img src="https://assets.iu.edu/brand/3.3.x/trident-large.png" alt="" width="27" height="32"><span>Indiana University</span></a>
+    <nav aria-label="Main navigation"><a href="#capabilities">Capabilities</a><a href="#connect">Connect</a><a href="#models">Models</a></nav>
+    <span class="preview">CONCEPT 03</span>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="service-name"><span class="wordmark">REALLMS<span class="wordmark-dot" aria-hidden="true">.</span></span><p>Research &amp; Academic<br>LLM Services</p><span class="service-location">HOSTED AT IU</span></div>
+      <h1 id="hero-title">One service.<br>Your choice of <span>interface.</span></h1>
+      <div class="hero-bottom"><p class="lead">Access a collection of AI models on IU infrastructure. Explore the capabilities. Connect through a browser or the tools you choose.</p><div class="hero-actions"><a class="button primary" href="https://reallms.rescloud.iu.edu/">Open Web Chat <span aria-hidden="true">&#8599;</span></a><a class="button" href="#connect">Connection options <span aria-hidden="true">&#8595;</span></a></div></div>
+      <div class="service-facts"><p><strong>At IU. For IU.</strong>On-premises in the IU Data Center.<br>No fee for the IU community.</p><p><strong>Your account. Your access.</strong>Web Chat uses your IU login.<br>API access requires an approved allocation.</p><p><strong>Critical research data and PHI.</strong>Approved for these data classifications.<br><a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027412">Read the data-use guidance</a>.</p></div>
+    </section>
+
+    <section class="wrap section" id="capabilities" aria-labelledby="capabilities-title">
+      <div class="section-heading"><p class="index">01 / CAPABILITIES</p><div><h2 id="capabilities-title">A range of capabilities.<br>A common foundation.</h2><p class="intro">Language, documents, audio, images, and retrieval. Each capability depends on the model and how you access it.</p></div></div>
+      <div class="inventory">
+        <article class="capability"><span class="cap-number" aria-hidden="true">01</span><div><h3>Text &amp; code</h3><p>Generate and revise text or code. Exchange messages with language models and provide context for their responses.</p></div><div class="cap-access"><span class="access-label">WEB CHAT + API</span><a href="#models" data-capability="language">Explore language models <span aria-hidden="true">&#8599;</span></a></div></article>
+        <article class="capability"><span class="cap-number" aria-hidden="true">02</span><div><h3>Documents</h3><p>Upload documents as context in Web Chat. The API also offers a specialized document-processing model.</p></div><div class="cap-access"><span class="access-label">WEB CHAT + API</span><a href="#models" data-capability="document">Explore the API model <span aria-hidden="true">&#8599;</span></a></div></article>
+        <article class="capability"><span class="cap-number" aria-hidden="true">03</span><div><h3>Audio transcription</h3><p>Convert recorded speech into text through a dedicated transcription endpoint.</p></div><div class="cap-access"><span class="access-label">API</span><a href="#models" data-capability="transcription">Explore transcription models <span aria-hidden="true">&#8599;</span></a></div></article>
+        <article class="capability"><span class="cap-number" aria-hidden="true">04</span><div><h3>Image generation</h3><p>Generate images from text descriptions. Image generation is documented in Web Chat and through an API endpoint.</p></div><div class="cap-access"><span class="access-label">WEB CHAT + API</span><a href="#models" data-capability="image">Explore the API model <span aria-hidden="true">&#8599;</span></a></div></article>
+        <article class="capability"><span class="cap-number" aria-hidden="true">05</span><div><h3>Embeddings</h3><p>Represent text as numerical vectors for similarity comparison and retrieval.</p></div><div class="cap-access"><span class="access-label">API</span><a href="#models" data-capability="embeddings">Explore embedding models <span aria-hidden="true">&#8599;</span></a></div></article>
+        <article class="capability"><span class="cap-number" aria-hidden="true">06</span><div><h3>Reranking</h3><p>Reorder a set of candidate results by their relevance to a query.</p></div><div class="cap-access"><span class="access-label">API</span><a href="#models" data-capability="reranking">Explore the reranking model <span aria-hidden="true">&#8599;</span></a></div></article>
+      </div>
+      <p class="inventory-note">Documented service capabilities, not a guarantee for every model or client. <a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027284">Chat features</a> and <a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027272">API endpoints</a> are detailed in the Knowledge Base.</p>
+    </section>
+
+    <section class="connection-section" id="connect" aria-labelledby="connect-title"><div class="wrap section">
+      <div class="section-heading"><p class="index">02 / CONNECTIONS</p><div><h2 id="connect-title">The interface is up to you.</h2><p class="intro">Use Web Chat, connect a tool, or send requests directly. These are different access methods, not different intelligence tiers.</p></div></div>
+      <nav class="connection-nav" aria-label="Connection options">
+        <a href="#web-chat" data-connection="web-chat"><span class="route-number">01</span><strong>Web Chat</strong><span>In your browser</span><span class="route-arrow" aria-hidden="true">&#8600;</span></a>
+        <a href="#direct-api" data-connection="direct-api"><span class="route-number">02</span><strong>Direct API</strong><span>cURL / HTTP requests</span><span class="route-arrow" aria-hidden="true">&#8600;</span></a>
+        <a href="#terminal" data-connection="terminal"><span class="route-number">03</span><strong>Terminal</strong><span>OpenCode / Pi</span><span class="route-arrow" aria-hidden="true">&#8600;</span></a>
+        <a href="#editor" data-connection="editor"><span class="route-number">04</span><strong>Code editor</strong><span>Continue / VS Code</span><span class="route-arrow" aria-hidden="true">&#8600;</span></a>
+      </nav>
+      <div class="connection-content">
+        <section class="connection-panel" id="web-chat" tabindex="-1" aria-labelledby="chat-title">
+          <div class="panel-heading"><p class="index">BROWSER ACCESS</p><h3 id="chat-title">An interface, already connected.</h3><p>Anyone with an IU account can use Web Chat. No API key or separate access request is needed.</p></div>
+          <ol class="chat-steps"><li><strong>Sign in with IU.</strong><p>Open Web Chat and choose <b>Continue with IU Login</b>.</p></li><li><strong>Choose a model.</strong><p>Send a message or upload a document to provide context.</p></li><li><strong>Continue the exchange.</strong><p>Ask follow-up questions and verify important outputs against your sources.</p></li></ol>
+          <div class="panel-actions"><a class="button primary" href="https://reallms.rescloud.iu.edu/">Open Web Chat <span aria-hidden="true">&#8599;</span></a><a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027284">All Web Chat features</a></div>
+        </section>
+        <section id="api-access" class="api-access" tabindex="-1" aria-labelledby="access-title">
+          <p class="index">SHARED BY ALL API CONNECTIONS</p><h3 id="access-title">First, your access.</h3>
+          <ol class="access-steps"><li><strong>Find or create a project.</strong><p>Sign in to <a href="https://projects.rt.iu.edu/">RTProjects</a>. Check whether your PI already has a project and coordinate being added. If you need a new project, students need their PI's username.</p></li><li><strong>Request an allocation.</strong><p>Request a REALLMS allocation if the project lacks one. <b>Wait for approval.</b> Collaborators must be added to <b>both the project and its allocation</b>.</p></li><li><strong>Generate your own key.</strong><p>On the approved allocation's page, create an individual API key. Each collaborator needs their own. Never share keys or commit them to code.</p></li></ol>
+          <p class="note">Already have an approved allocation and your own key? Continue to the configuration below. <a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027272">Full API access guide</a>.</p>
+        </section>
+        <section class="connection-panel" id="direct-api" tabindex="-1" aria-labelledby="direct-title"><div class="panel-heading"><p class="index">DIRECT API / cURL 8.3+</p><h3 id="direct-title">Make a direct request.</h3><p>A minimal Chat Completions request, without an AI client. Other capabilities use their own endpoints and request formats.</p></div><div data-recipe="curl"></div><p class="fallback">See the <a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027272">API guide and cURL example</a>.</p></section>
+        <section class="connection-panel" id="terminal" tabindex="-1" aria-labelledby="terminal-title"><div class="panel-heading"><p class="index">TERMINAL CLIENTS</p><h3 id="terminal-title">Connect from your terminal.</h3><p>Configure OpenCode or Pi to use a REALLMS language model. Text responses and agent tool calls are separate capabilities; tool calling is not verified here.</p></div><div class="terminal-control" hidden><label for="terminal-select">Terminal client</label><select id="terminal-select"><option value="opencode">OpenCode V2</option><option value="pi">Pi Coding Agent</option></select></div><div data-recipe="opencode"></div><p class="fallback">Configuration references: <a href="https://opencode.ai/v2/docs/providers/#custom">OpenCode V2</a> and <a href="https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/models.md">Pi</a>. Use the REALLMS base URL and your own key from the <a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027272">API guide</a>.</p></section>
+        <section class="connection-panel" id="editor" tabindex="-1" aria-labelledby="editor-title"><div class="panel-heading"><p class="index">CODE EDITOR / CONTINUE</p><h3 id="editor-title">Connect inside VS Code.</h3><p>Use Continue in Chat mode with a REALLMS language model. This configuration does not enable autocomplete or establish agent tool support.</p></div><div data-recipe="continue"></div><p class="fallback">See <a href="https://docs.continue.dev/customize/model-providers/top-level/openai">Continue's provider reference</a> and the <a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027272">REALLMS API guide</a>.</p></section>
+        <p class="connection-disclaimer">External clients do not automatically inherit REALLMS data approval. Check their data handling before connecting. Examples are documentation-backed, not authenticated integration tests. Never enter a key on this page.</p>
+      </div>
+      <aside class="service-limits" aria-label="API service limits"><strong>A shared service, in beta.</strong><p>The API may have changes, downtime, and rate limits. For high-throughput needs, <a href="https://projects.rt.iu.edu/help/?queue=racs">ask the team about HPC options</a>.</p></aside>
+    </div></section>
+
+    <section class="wrap section" id="models" tabindex="-1" aria-labelledby="models-title">
+      <div class="section-heading"><p class="index">03 / MODEL DIRECTORY</p><div><h2 id="models-title">Know what's behind<br>the interface.</h2><p class="intro">Chat and API inventories differ. Choose an access method to see its models and documented capabilities.</p></div></div>
+      <div id="catalog" hidden>
+        <div class="catalog-toolbar"><div class="catalog-switch" role="group" aria-label="Model catalog"><button type="button" data-catalog="chat" aria-pressed="true">Web Chat</button><button type="button" data-catalog="api" aria-pressed="false">API</button></div><label for="model-search">Search models<input id="model-search" type="search" placeholder="Name, type, or endpoint" autocomplete="off"></label></div>
+        <div class="catalog-meta"><p id="catalog-source"></p><button id="reset-models" type="button">Reset filters</button></div>
+        <p id="capability-filter" class="filter-note" hidden></p>
+        <div class="table-scroll" role="region" aria-label="Model directory" tabindex="0"><table><caption id="catalog-caption">Web Chat models</caption><thead><tr><th scope="col">Model</th><th scope="col">Capability</th><th scope="col" id="detail-heading">Access</th></tr></thead><tbody id="model-rows"></tbody></table></div>
+        <p id="model-count" role="status"></p><p class="note" id="api-base" hidden>API base: <code>https://reallms.rescloud.iu.edu/direct/v1</code><br>Endpoint mappings are KB-sourced. Model discovery is not an inference or service-health test.</p>
+      </div>
+      <p class="catalog-reference">The Knowledge Base remains authoritative: <a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027284">Chat models and features</a> / <a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027272">API models and endpoints</a>.</p>
+      <noscript><p class="note">JavaScript is off. All connection guides remain readable; use the Knowledge Base links for the model lists and complete API examples.</p></noscript>
+    </section>
+
+    <section class="support wrap" id="help" aria-labelledby="help-title"><div><p class="index">04 / SUPPORT</p><h2 id="help-title">A service.<br>And a team.</h2></div><div class="support-links"><a href="https://projects.rt.iu.edu/help/?queue=racs"><span>Contact the REALLMS team<small>Access, connections, and service questions</small></span><span aria-hidden="true">&#8599;</span></a><a href="https://iu-hpc-ai-users.slack.com/"><span>Join the conversation<small>IU HPC &amp; AI Slack / #reallms</small></span><span aria-hidden="true">&#8599;</span></a><a href="https://uitsradl-fireform.eas.iu.edu/online/form/index/reallms"><span>Suggest a model<small>Request an addition to the service</small></span><span aria-hidden="true">&#8599;</span></a><p class="note">Data classification questions? <a href="mailto:datard@iu.edu">Contact the Research Data Steward</a>.</p></div></section>
+  </main>
+  <footer class="site-footer wrap"><p><strong>REALLMS</strong> / Research &amp; Academic LLM Services</p><div><a href="https://accessibility.iu.edu/assistance/">Accessibility</a><a href="https://www.iu.edu/privacy/index.html">Privacy</a><a href="https://servicenow.iu.edu/kb?id=kb_article_view&amp;sysparm_article=KB0027412">Terms</a></div><p>Design preview 03. Public if shared, not access-controlled.<br>&copy; 2026 The Trustees of Indiana University</p></footer>
+  <div id="copy-status" class="toast" role="status"></div>
+  <template id="recipe-template"><p class="recipe-intro"></p><div class="code-window"><div class="code-heading"><span class="recipe-file"></span><button type="button" class="copy-code">Copy code</button></div><pre tabindex="0" role="region" aria-label="Configuration example"><code></code></pre></div><p class="recipe-setup note"></p><p class="recipe-check note"></p><a class="recipe-docs">Tool setup reference <span aria-hidden="true">&#8599;</span></a></template>
+</body>
+</html>

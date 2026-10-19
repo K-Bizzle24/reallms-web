@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REALLMS API Concepts</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #000;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            width: 100%;
+        }
+        .card {
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #000;
+            transition: all 0.2s ease;
+            display: block;
+            background: #f9f9f9;
+        }
+        .card:hover {
+            border-color: #000;
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        .card h2 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.25rem;
+        }
+        .card p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h1>REALLMS API Concepts</h1>
+    <p>Explore different approaches to API documentation and service interfaces.</p>
+    <div class="links">
+        <a href="/two-ways-in/" class="card">
+            <h2>Two Ways In</h2>
+            <p>Bridging the gap between Chat and Direct API access.</p>
+        </a>
+        <a href="/try-then-scale/" class="card">
+            <h2>Try Then Scale</h2>
+            <p>Focused on low-friction entry and rapid scalability.</p>
+        </a>
+        <a href="/your-interface/" class="card">
+            <h2>Your Interface</h2>
+            <p>A capability-first introduction to service interfaces.</p>
+        </a>
+    </div>
+</body>
+</html>
